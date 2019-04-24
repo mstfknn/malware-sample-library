@@ -1,0 +1,56 @@
+/bin/Release debug string
+
+!/bin/Release
+/bin/Release/*
+!/bin/Release/testbuild.bat
+
+/*.sdf
+
+/*.suo
+
+/objs/Release debug string/core
+
+/objs/Release/core
+
+/*.opensdf
+
+/objs/Release debug string/test
+
+/objs/Release/tool
+/objs/Release debug string/bot
+
+/objs/Release
+
+/builder/ReadMe.txt
+
+/ipch/builder-a7807fbf/*.ipch
+/ipch/builder_gui-51554487/*.ipch
+/objs/Release debug string/TestElevation/*.tlog
+/objs/Release debug string/TestElevation/*.log
+*.tlog
+*.obj
+*.lastbuildstate
+*.pdb
+*.cod
+*.log
+/bin/Release simple/*.lib
+/bin/Release simple/plugins
+/bot/x64/Release debug string
+/temp
+/x64/Release debug string
+/x64/Release
+/WndRec/Debug/
+/WndRec/Release/
+/bot/Debug/
+/bot/Release/
+/core/Debug/
+/core/Release/
+/mimikatz/Debug/
+/mimikatz/Release/
+!/testbuild
+/testbuild/*
+!/testbuild/builder_gui.config
+!/testbuild/test_config.config
+!/testbuild/bot.exe
+!/testbuild/builder.exe
+!/testbuild/builder_gui.exe

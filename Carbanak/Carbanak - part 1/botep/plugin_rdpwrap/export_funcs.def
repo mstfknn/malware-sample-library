@@ -1,0 +1,6 @@
+LIBRARY "plugin.dll"
+EXPORTS 
+	install;
+	uninstall;
+
+

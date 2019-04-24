@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{475b18c7-9a08-4daa-b6e1-0907bb543306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{da5baf8a-1cf2-4f52-a30c-03aaf582d5ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\WndRec\cmdexec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\lzw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\sender.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\socks.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\tunnel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\video.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\WndRec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\file.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\portforward.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WndRec\FileTransfer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\https.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\WndRec.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cmdexec.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lzw.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sender.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SendLog.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\socks.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tunnel.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\video.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\file.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\WndRec\stream.h">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\portforward.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileTransfer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\crypt.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\https.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

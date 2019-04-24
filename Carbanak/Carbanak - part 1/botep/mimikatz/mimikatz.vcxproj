@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release debug string|Win32">
+      <Configuration>Release debug string</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release debug string|x64">
+      <Configuration>Release debug string</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F2D38A31-CF17-4962-A601-6779F18FDBF2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>mimikatz</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release debug string|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release debug string|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release debug string|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release debug string|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)objs\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release debug string|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)objs\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release debug string|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MinSpace</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;ON_CODE_STRING;WINAPI_INVISIBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include\mimikatz;include\mimikatz\inc;include\mimikatz\sekurlsa;include\mimikatz\sekurlsa\crypto;include\mimikatz\sekurlsa\packages;..\core\include;include\mimikatz\sekurlsa\modules;include\mimikatz\modules</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AssemblerOutput>All</AssemblerOutput>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MinSpace</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;ON_CODE_STRING;WINAPI_INVISIBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include\mimikatz;include\mimikatz\inc;include\mimikatz\sekurlsa;include\mimikatz\sekurlsa\crypto;include\mimikatz\sekurlsa\packages;..\core\include;include\mimikatz\sekurlsa\modules;include\mimikatz\modules</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AssemblerOutput>All</AssemblerOutput>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release debug string|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MinSpace</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;DEBUG_STRINGS;WINAPI_INVISIBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include\mimikatz;include\mimikatz\inc;include\mimikatz\sekurlsa;include\mimikatz\sekurlsa\crypto;include\mimikatz\sekurlsa\packages;..\core\include;include\mimikatz\sekurlsa\modules;include\mimikatz\modules</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AssemblerOutput>All</AssemblerOutput>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release debug string|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MinSpace</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;DEBUG_STRINGS;WINAPI_INVISIBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include\mimikatz;include\mimikatz\inc;include\mimikatz\sekurlsa;include\mimikatz\sekurlsa\crypto;include\mimikatz\sekurlsa\packages;..\core\include;include\mimikatz\sekurlsa\modules;include\mimikatz\modules</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AssemblerOutput>All</AssemblerOutput>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\kuhl_m_ts.c" />
+    <ClCompile Include="source\mimikatz.cpp" />
+    <ClCompile Include="source\modules\kull_m_asn1.c" />
+    <ClCompile Include="source\modules\kull_m_file.c" />
+    <ClCompile Include="source\modules\kull_m_handle.c" />
+    <ClCompile Include="source\modules\kull_m_kernel.c" />
+    <ClCompile Include="source\modules\kull_m_memory.c" />
+    <ClCompile Include="source\modules\kull_m_minidump.c" />
+    <ClCompile Include="source\modules\kull_m_net.c" />
+    <ClCompile Include="source\modules\kull_m_output.c" />
+    <ClCompile Include="source\modules\kull_m_patch.c" />
+    <ClCompile Include="source\modules\kull_m_process.c" />
+    <ClCompile Include="source\modules\kull_m_registry.c" />
+    <ClCompile Include="source\modules\kull_m_service.c" />
+    <ClCompile Include="source\modules\kull_m_string.c" />
+    <ClCompile Include="source\modules\kull_m_token.c" />
+    <ClCompile Include="source\sekurlsa\crypto\kuhl_m_sekurlsa_nt5.c" />
+    <ClCompile Include="source\sekurlsa\crypto\kuhl_m_sekurlsa_nt6.c" />
+    <ClCompile Include="source\sekurlsa\crypto\kuhl_m_sekurlsa_nt63.c" />
+    <ClCompile Include="source\sekurlsa\kuhl_m_sekurlsa.c" />
+    <ClCompile Include="source\sekurlsa\kuhl_m_sekurlsa_utils.c" />
+    <ClCompile Include="source\sekurlsa\packages\kuhl_m_sekurlsa_dpapi.c" />
+    <ClCompile Include="source\sekurlsa\packages\kuhl_m_sekurlsa_kerberos.c" />
+    <ClCompile Include="source\sekurlsa\packages\kuhl_m_sekurlsa_livessp.c" />
+    <ClCompile Include="source\sekurlsa\packages\kuhl_m_sekurlsa_msv1_0.c" />
+    <ClCompile Include="source\sekurlsa\packages\kuhl_m_sekurlsa_ssp.c" />
+    <ClCompile Include="source\sekurlsa\packages\kuhl_m_sekurlsa_tspkg.c" />
+    <ClCompile Include="source\sekurlsa\packages\kuhl_m_sekurlsa_wdigest.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\mimikatz\inc\DbgHelp.h" />
+    <ClInclude Include="include\mimikatz\inc\DsGetDC.h" />
+    <ClInclude Include="include\mimikatz\inc\globals.h" />
+    <ClInclude Include="include\mimikatz\inc\LM.h" />
+    <ClInclude Include="include\mimikatz\inc\LMaccess.h" />
+    <ClInclude Include="include\mimikatz\inc\LMalert.h" />
+    <ClInclude Include="include\mimikatz\inc\LMAPIbuf.h" />
+    <ClInclude Include="include\mimikatz\inc\LMat.h" />
+    <ClInclude Include="include\mimikatz\inc\LMaudit.h" />
+    <ClInclude Include="include\mimikatz\inc\LMConfig.h" />
+    <ClInclude Include="include\mimikatz\inc\LMCons.h" />
+    <ClInclude Include="include\mimikatz\inc\LMDFS.h" />
+    <ClInclude Include="include\mimikatz\inc\LMErr.h" />
+    <ClInclude Include="include\mimikatz\inc\LMErrlog.h" />
+    <ClInclude Include="include\mimikatz\inc\LMJoin.h" />
+    <ClInclude Include="include\mimikatz\inc\LMMsg.h" />
+    <ClInclude Include="include\mimikatz\inc\LMRemUtl.h" />
+    <ClInclude Include="include\mimikatz\inc\LMRepl.h" />
+    <ClInclude Include="include\mimikatz\inc\LMServer.h" />
+    <ClInclude Include="include\mimikatz\inc\LMShare.h" />
+    <ClInclude Include="include\mimikatz\inc\LMSName.h" />
+    <ClInclude Include="include\mimikatz\inc\LMStats.h" />
+    <ClInclude Include="include\mimikatz\inc\LMSvc.h" />
+    <ClInclude Include="include\mimikatz\inc\LMUse.h" />
+    <ClInclude Include="include\mimikatz\inc\LMUseFlg.h" />
+    <ClInclude Include="include\mimikatz\inc\LMWksta.h" />
+    <ClInclude Include="include\mimikatz\inc\NTSecPKG.h" />
+    <ClInclude Include="include\mimikatz\inc\PshPack8.h" />
+    <ClInclude Include="include\mimikatz\inc\wincred.h" />
+    <ClInclude Include="include\mimikatz\kerberos\kuhl_m_kerberos.h" />
+    <ClInclude Include="include\mimikatz\kerberos\kuhl_m_kerberos_pac.h" />
+    <ClInclude Include="include\mimikatz\kerberos\kuhl_m_kerberos_ticket.h" />
+    <ClInclude Include="include\mimikatz\kuhl_m.h" />
+    <ClInclude Include="include\mimikatz\kuhl_m_ts.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\globals.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\ioctl.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\kkll_m_filters.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\kkll_m_memory.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\kkll_m_modules.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\kkll_m_notify.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\kkll_m_process.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\kkll_m_ssdt.h" />
+    <ClInclude Include="include\mimikatz\mimidrv\mimidrv.h" />
+    <ClInclude Include="include\mimikatz\mimikatz.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_asn1.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_crypto_system.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_file.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_handle.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_kernel.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_memory.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_minidump.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_net.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_output.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_patch.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_process.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_registry.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_registry_structures.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_rpce.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_service.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_string.h" />
+    <ClInclude Include="include\mimikatz\modules\kull_m_token.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\crypto\kuhl_m_sekurlsa_nt5.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\crypto\kuhl_m_sekurlsa_nt6.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\crypto\kuhl_m_sekurlsa_nt63.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\globals_sekurlsa.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\kuhl_m_sekurlsa.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\kuhl_m_sekurlsa_utils.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\packages\kuhl_m_sekurlsa_dpapi.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\packages\kuhl_m_sekurlsa_kerberos.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\packages\kuhl_m_sekurlsa_livessp.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\packages\kuhl_m_sekurlsa_msv1_0.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\packages\kuhl_m_sekurlsa_ssp.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\packages\kuhl_m_sekurlsa_tspkg.h" />
+    <ClInclude Include="include\mimikatz\sekurlsa\packages\kuhl_m_sekurlsa_wdigest.h" />
+    <ClInclude Include="include\mimikatz\winapi.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

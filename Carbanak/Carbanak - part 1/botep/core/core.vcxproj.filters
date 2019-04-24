@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{436becbf-9171-4258-b026-d8225b4a4e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{8333b394-84a5-424c-b193-21f064393f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\injects">
+      <UniqueIdentifier>{83a24796-c2e5-46e4-83a0-8d124b212d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\abstract">
+      <UniqueIdentifier>{a60056b0-52c6-4286-af0a-8a1399109452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\hook">
+      <UniqueIdentifier>{5dbc094d-b949-4e57-a837-ea3df9e31eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\hook\x86">
+      <UniqueIdentifier>{b637ef56-0410-4d1c-ae56-5bfdab1ea1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\hook\x64">
+      <UniqueIdentifier>{1b4b3cc7-d5d8-45ee-8fcb-6cd0fe28623e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\elevation">
+      <UniqueIdentifier>{b542cb26-75cf-42c6-b4d4-c6d50458039e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\misc">
+      <UniqueIdentifier>{cc57a868-d3fe-4119-80ea-136850cc761e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\util">
+      <UniqueIdentifier>{cb0ac0b7-04ba-4e94-9a14-05466e575804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\process">
+      <UniqueIdentifier>{24def3b6-c332-4b51-af19-feb253d4d5f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\memory.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\string.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\debug.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\core.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\path.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\svchost.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pe.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\InjectCode.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\InjectCode2.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\RunInjectCode.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\RunInjectCode2.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\RunInjectCode3.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\misc.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\winapi.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\abstract\GetUid1.cpp">
+      <Filter>source\abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="source\file.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\explorer.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\InjectIntoProcess1.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\InjectIntoProcess2.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\hook.cpp">
+      <Filter>source\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\x86\zdisasm.cpp">
+      <Filter>source\hook\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\ZwResumeThread.cpp">
+      <Filter>source\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\InjectIntoProcess3.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\socket.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\http.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vector.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rand.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\crypt.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pipe.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\abstract\abstract.cpp">
+      <Filter>source\abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="source\keylogger.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\PeekMessage.cpp">
+      <Filter>source\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\elevation\sdrop.cpp">
+      <Filter>source\elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\reestr.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\runinmem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cab.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\injects\explorer2.cpp">
+      <Filter>source\injects</Filter>
+    </ClCompile>
+    <ClCompile Include="include\core\HttpProxy.h">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HttpProxy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ThroughTunnel.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\elevation\ndproxy.cpp">
+      <Filter>source\elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Service.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\elevation\UACBypass.cpp">
+      <Filter>source\elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileTools.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\misc\KillBlockingProcess.cpp">
+      <Filter>source\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\misc\KillLoadedModule.cpp">
+      <Filter>source\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="include\core\winapi_simple.h">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\misc\DeleteFileHard.cpp">
+      <Filter>source\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\proxy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sniffer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\elevation\EUDC.cpp">
+      <Filter>source\elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\elevation\COM.cpp">
+      <Filter>source\elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\elevation\PathRec.cpp">
+      <Filter>source\elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\version.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\misc\FileMonitoring.cpp">
+      <Filter>source\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\util\window.cpp">
+      <Filter>source\util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\util\screenshot.cpp">
+      <Filter>source\util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\util\users.cpp">
+      <Filter>source\util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\util\mutex.cpp">
+      <Filter>source\util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\process\exec.cpp">
+      <Filter>source\process</Filter>
+    </ClCompile>
+    <ClCompile Include="source\process\kill.cpp">
+      <Filter>source\process</Filter>
+    </ClCompile>
+    <ClCompile Include="source\process\sendmsg.cpp">
+      <Filter>source\process</Filter>
+    </ClCompile>
+    <ClCompile Include="source\process\misc_process.cpp">
+      <Filter>source\process</Filter>
+    </ClCompile>
+    <ClCompile Include="source\misc\GetCommandLineProcess.cpp">
+      <Filter>source\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\elevation\CVE2014-4113.cpp">
+      <Filter>source\elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\elevation\BlackEnergy2.cpp">
+      <Filter>source\elevation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\DestroyWindow.cpp">
+      <Filter>source\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\DispatchMessage.cpp">
+      <Filter>source\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\GetMessage.cpp">
+      <Filter>source\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PipeSocket.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\memory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\string.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\type.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\winapi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\debug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\core.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\injects.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\path.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\process.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\pe.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\ntdll.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\misc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\abstract.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\File.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\hook.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\hook\x86\zdisasm.h">
+      <Filter>source\hook\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\socket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\http.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\vector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\rand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\crypt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\pipe.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\util.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\elevation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\keylogger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\reestr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\runinmem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\cab.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\ThroughTunnel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\service.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\FileTools.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\api_funcs_hash.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\api_funcs_type.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\proxy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\sniffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\string_crypt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\PipeSocket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
